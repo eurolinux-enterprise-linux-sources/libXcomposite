@@ -1,11 +1,10 @@
 Summary: X Composite Extension library
 Name: libXcomposite
-Version: 0.4.1
-Release: 2%{?dist}
+Version: 0.4.3
+Release: 4%{?dist}
 License: MIT
 Group: System Environment/Libraries
 URL: http://www.x.org
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 Source0: ftp://ftp.x.org/pub/individual/lib/%{name}-%{version}.tar.bz2
 
@@ -55,6 +54,21 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/X?omposite*.3*
 
 %changelog
+* Thu Jul 19 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.4.3-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_18_Mass_Rebuild
+
+* Fri Jan 13 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.4.3-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_17_Mass_Rebuild
+
+* Mon Feb 07 2011 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.4.3-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_15_Mass_Rebuild
+
+* Thu Oct 28 2010 Adam Jackson <ajax@redhat.com> 0.4.3-1
+- libXcomposite 0.4.3
+
+* Wed Jun 09 2010 Peter Hutterer <peter.hutterer@redhat.com> 0.4.2-1
+- libXcomposite 0.4.2
+
 * Tue Oct 13 2009 Adam Jackson <ajax@redhat.com> 0.4.1-2
 - build fix
 
