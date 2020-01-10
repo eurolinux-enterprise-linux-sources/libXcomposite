@@ -1,7 +1,7 @@
 Summary: X Composite Extension library
 Name: libXcomposite
 Version: 0.4.4
-Release: 3%{?dist}
+Release: 4.1%{?dist}
 License: MIT
 Group: System Environment/Libraries
 URL: http://www.x.org
@@ -57,6 +57,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/X?omposite*.3*
 
 %changelog
+* Wed Feb 12 2014 Adam Jackson <ajax@redhat.com> 0.4.4-4.1
+- Mass rebuild
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.4.4-4
+- Mass rebuild 2013-12-27
+
 * Thu Mar 07 2013 Peter Hutterer <peter.hutterer@redhat.com> - 0.4.4-3
 - autoreconf for aarch64
 
